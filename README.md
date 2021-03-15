@@ -1,2 +1,2 @@
-# CafeTherapy.github.io
+# CafeTherapy
 سایتی برای سلامت و تفریح، آرامشی برای جسم و روح
