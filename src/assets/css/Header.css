@@ -1,0 +1,187 @@
+/* ---------------------------*/
+/*  ---- header  -------- */
+/* ---------------------------*/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+
+.hero-text-box {
+  position: absolute;
+  width: 100%px;
+  top: 30%;
+  right: 20%;
+  transform: translate(0%, 0%)
+}
+
+.logo {
+  opacity: 85%;
+  height: 120px;
+  width: auto;
+  float: left;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.main-nav {
+  list-style: none;
+}
+
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+
+
+
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+}
+
+.main-nav a:link,
+.main-nav a:visited,
+.main-nav a:active {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(177, 79, 79, 0);
+  outline: 0;
+}
+
+.main-nav a:after {
+  padding: 5px 10px;
+  display: block;
+  content: '';
+  border-bottom: solid 3px #df7b29;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.main-nav a:hover:after {
+  transform: scaleX(1);
+}
+
+/* Mobile navi */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.burger-icon {
+  background: url("img/burguer%20white.svg");
+  background-size: cover;
+  font-size: 250%;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  display: block;
+  animation: slideInUp;
+  animation-duration: 0.5s
+}
+
+.mobile-nav-icon-close {
+  background: url("img/close%20white.svg");
+  background-size: cover;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  display: block;
+  animation: fadeInUp;
+  animation-duration: 0.5s
+}
+
+/* ===    sticly nav ==== */
+
+.sticky-nav {
+  list-style: none;
+  background-color: var(--top-sticky-nav);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 1px rgba(221, 221, 221, 0.52);
+  z-index: 9999;
+  transition: all 1s;
+
+}
+
+.sticky-nav .main-nav {
+  margin-top: 10px;
+
+}
+
+.sticky-nav .main-nav li {
+  margin-right: 40px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.sticky-nav .main-nav a:link,
+.sticky-nav .main-nav a:visited,
+.sticky-nav .main-nav a:active,
+.sticky-nav .main-nav a {
+  text-decoration: none;
+  color: var(--top-sticky-nav-text);
+  display: inline-block;
+  outline: 0;
+}
+
+.sticky-nav .main-nav a:hover {
+  /*    color: var(--top-sticky-nav-text-hover);*/
+
+}
+
+.sticky-nav .main-nav li a:after {
+  padding: 11px 10px;
+  display: block;
+  content: '';
+  border-bottom: solid 3px #000000;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.sticky-nav .main-nav a:hover:after {
+  transform: scaleX(1);
+
+}
+
+.logo-black {
+  display: none;
+  height: 65px;
+  width: auto;
+  float: left;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.sticky-nav .logo {
+  display: none;
+  cursor: pointer;
+}
+
+.sticky-nav .logo-black {
+  display: block;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}

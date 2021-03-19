@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import Header from './components/header';
+import Features from './components/Features';
+import ImagesGrid from './components/ImagesGrid';
 import reportWebVitals from './reportWebVitals';
+import './assets/css/style.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Features />
+    <ImagesGrid />
   </React.StrictMode>,
   document.getElementById('root')
 );
