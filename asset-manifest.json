@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/CafeTherapy/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/CafeTherapy/static/js/main.2052a140.chunk.js",
-    "main.js.map": "/CafeTherapy/static/js/main.2052a140.chunk.js.map",
-    "runtime-main.js": "/CafeTherapy/static/js/runtime-main.5e9fd931.js",
-    "runtime-main.js.map": "/CafeTherapy/static/js/runtime-main.5e9fd931.js.map",
-    "static/js/2.19384c93.chunk.js": "/CafeTherapy/static/js/2.19384c93.chunk.js",
-    "static/js/2.19384c93.chunk.js.map": "/CafeTherapy/static/js/2.19384c93.chunk.js.map",
-    "static/js/3.124c2000.chunk.js": "/CafeTherapy/static/js/3.124c2000.chunk.js",
-    "static/js/3.124c2000.chunk.js.map": "/CafeTherapy/static/js/3.124c2000.chunk.js.map",
+    "main.css": "/CafeTherapy/static/css/main.5b12d9b3.chunk.css",
+    "main.js": "/CafeTherapy/static/js/main.36b8f31f.chunk.js",
+    "main.js.map": "/CafeTherapy/static/js/main.36b8f31f.chunk.js.map",
+    "runtime-main.js": "/CafeTherapy/static/js/runtime-main.5b1dfec5.js",
+    "runtime-main.js.map": "/CafeTherapy/static/js/runtime-main.5b1dfec5.js.map",
+    "static/js/2.65b2fd75.chunk.js": "/CafeTherapy/static/js/2.65b2fd75.chunk.js",
+    "static/js/2.65b2fd75.chunk.js.map": "/CafeTherapy/static/js/2.65b2fd75.chunk.js.map",
+    "static/js/3.ce4200f5.chunk.js": "/CafeTherapy/static/js/3.ce4200f5.chunk.js",
+    "static/js/3.ce4200f5.chunk.js.map": "/CafeTherapy/static/js/3.ce4200f5.chunk.js.map",
     "index.html": "/CafeTherapy/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/CafeTherapy/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.19384c93.chunk.js.LICENSE.txt": "/CafeTherapy/static/js/2.19384c93.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/CafeTherapy/static/media/logo.6ce24c58.svg"
+    "static/css/main.5b12d9b3.chunk.css.map": "/CafeTherapy/static/css/main.5b12d9b3.chunk.css.map",
+    "static/js/2.65b2fd75.chunk.js.LICENSE.txt": "/CafeTherapy/static/js/2.65b2fd75.chunk.js.LICENSE.txt",
+    "static/media/1.b220fbc3.jpg": "/CafeTherapy/static/media/1.b220fbc3.jpg",
+    "static/media/2.4eee7ad4.jpg": "/CafeTherapy/static/media/2.4eee7ad4.jpg",
+    "static/media/3.fdf127e0.jpg": "/CafeTherapy/static/media/3.fdf127e0.jpg",
+    "static/media/4.6ba52385.jpg": "/CafeTherapy/static/media/4.6ba52385.jpg",
+    "static/media/5.a1788115.jpg": "/CafeTherapy/static/media/5.a1788115.jpg",
+    "static/media/6.f1b75c8e.jpg": "/CafeTherapy/static/media/6.f1b75c8e.jpg",
+    "static/media/7.287e3a80.jpg": "/CafeTherapy/static/media/7.287e3a80.jpg",
+    "static/media/8.3e3af448.jpg": "/CafeTherapy/static/media/8.3e3af448.jpg",
+    "static/media/style.css": "/CafeTherapy/static/media/back-customers.2a1069bd.jpg",
+    "static/media/Header.css": "/CafeTherapy/static/media/hero.d9d1c10d.jpg",
+    "static/media/logo-white.0de29a7a.png": "/CafeTherapy/static/media/logo-white.0de29a7a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e9fd931.js",
-    "static/js/2.19384c93.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.2052a140.chunk.js"
+    "static/js/runtime-main.5b1dfec5.js",
+    "static/js/2.65b2fd75.chunk.js",
+    "static/css/main.5b12d9b3.chunk.css",
+    "static/js/main.36b8f31f.chunk.js"
   ]
 }
