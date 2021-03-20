@@ -5,7 +5,6 @@ function Features() {
   return (
     <Container fluid>
       <section
-        style={{ textAlign: 'center' }}
         class="section-features js--section-features clearfix"
         id="features"
       >

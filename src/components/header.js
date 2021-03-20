@@ -6,6 +6,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Header() {
   return (
     <div>
+      <p class="long-line">
+        سلام به کوک وایز خوش اومدین. با سایت ما خوشمزه ترین و سالم ترین غذاهای
+        ایران رو پیدا کن. گروه ما برای سلامتی شما به شهر های مختلف ایران سفر
+        کرده و بهترین کافه ها یا رستوران ها یا کافه رستوران ها رو پیدا کرده و
+        قصد معرفی اونها رو به شما داریم. شعار ما عقل سالم در بدن سالم هست.
+      </p>
       <header className="js--Header" style={{ textAlign: 'center' }}>
         <nav>
           <Row>
